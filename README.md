@@ -11,7 +11,7 @@ The class has several methods:
 - `reduce_pdf(pdf_path, target, num_sents=5)` - this method takes in a pdf file's path, a target text and a number of sentences to be returned, it then reads the pdf, extract the text from it, calls the summarize method and returns the summary.
 
 ## Installation
-To install TextReducer, use "pip install targeted_sum"
+To install TextReducer, use `pip install targeted_sum`
 
 ## Demo
 A Google Colab demo can be found [here](https://colab.research.google.com/drive/1Bnl4e9JmFYoTSAF2FlBVPAUQ1lC0EpjE?usp=sharing)
