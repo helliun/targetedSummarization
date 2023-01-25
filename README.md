@@ -15,5 +15,11 @@ The class has several methods:
 ## Installation
 To install TextReducer, use `pip install targeted_sum`
 
+## Applications
+- `Summarization` - Does a good job summarizing large texts while staying lightweight and maintaining coherence.
+- `Information Extraction` - Good for finding sections of text related to any given text prompt
+- `Question Answering` - Good for finding sections of text related to any given question. When paired with a QA model, this can be a very powerful tool.
+- `GPT3/ChatGPT Prompting` - Good for reducing the length of text prompts for GPT3 or ChatGPT. This saves time and money, and improves responses by removing unnecessary content from prompts.
+
 ## Demo
 A Google Colab demo can be found [here](https://colab.research.google.com/drive/1Bnl4e9JmFYoTSAF2FlBVPAUQ1lC0EpjE?usp=sharing)

@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 import spacy
 import PyPDF2
 
-class TextReducer:
+class Reducer:
     def __init__(self, model_name='msmarco-MiniLM-L-6-v3', device="cpu"):
         self.device = device if torch.cuda.is_available() else "cpu"
         self.embmodel = SentenceTransformer(model_name).to(self.device)
