@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TextReducer/TextReducer.py
+TextReducer/__init__.py
+targeted_sum.egg-info/PKG-INFO
+targeted_sum.egg-info/SOURCES.txt
+targeted_sum.egg-info/dependency_links.txt
+targeted_sum.egg-info/requires.txt
+targeted_sum.egg-info/top_level.txt

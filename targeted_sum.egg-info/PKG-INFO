@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: targeted-sum
+Version: 1.0.1
+Summary: A package for targeted summarization
+Home-page: https://github.com/helliun/targetedSummarization
+Author: Henry Leonardi
+Author-email: leonardi.henry@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hey here's my code! 
