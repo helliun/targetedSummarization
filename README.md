@@ -1,4 +1,4 @@
-# Targeted Summarization with TextReducer
+# TextReducer - A Tool for Summarization and Information Extraction
 TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library. Unlike many techniques for extractive summaries, TextReducer has the option for a "target" around which the summary will be focused. This target can be any text prompt, meaning that a user can specify the type of information that they would like to find or summarize, and ignore everything else.
 
 One of the key benefits of TextReducer is that rather than extracting the sentences for the summary, it carves away at the original text, removing unnecessary sentences. This leads to more fluent summarizations, and preserves grammatical features like coreference that are often lost in traditional extractive summarization. 
