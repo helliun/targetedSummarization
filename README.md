@@ -3,6 +3,8 @@ TextReducer is a tool for summarization and information extraction powered by th
 
 One of the key benefits of TextReducer is that rather than extracting the sentences for the summary, it carves away at the original text, removing unnecessary sentences. This leads to more fluent summarizations, and preserves grammatical features like coreference that are often lost in traditional extractive summarization. 
 
+![gif](Untitled_presentation_-_Google_Slides_-_Brave_2023-01-24_20-01-37_AdobeExpress.gif)
+
 For instance, in the sentences *"Mark lives in Chicago with his family. He has a dog."*, it is imporant that these sentences stay linked together. Otherwise, the coreferent of the word *"he"* in the second sentence is lost. TextReducer is much better at preserving such related sentences, and is thus a valuable tool for fast, but fluent summarizations of large texts.
 
 The class has several methods:
