@@ -50,7 +50,8 @@ class Reducer:
         
     def reduce(self, huge_text, target, num_sents=5):
         target_embedding = self.embmodel.encode(target, convert_to_tensor=True, show_progress_bar=False)
-        huge_sentences = [sent.text for sent in self.nlp(huge_text).sents]
+        #huge_sentences = [sent.text for sent in self.nlp(huge_text).sents]
+        huge_sentences = [x+"." for x in huge_text.split(". ")]
         parts = []
         for part in self.batch(huge_sentences, 4):
             parts.append(" ".join(part))

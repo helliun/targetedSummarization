@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="targeted_sum",
-    version="1.0.3",
+    version="1.0.6",
     author="Henry Leonardi",
     author_email="leonardi.henry@gmail.com",
     description="A package for targeted summarization",
