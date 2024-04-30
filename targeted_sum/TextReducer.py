@@ -80,7 +80,7 @@ class Reducer:
         
     def reduce_pdf(self, pdf_path, target, num_sents=5):
         with open(pdf_path, 'rb') as f:
-            pdf = PyPDF2.PdfFileReader(f)
+            pdf = PyPDF2.PdfReader(f)
             text = ""
             for page in pdf.pages:
                 text += page.extractText()
